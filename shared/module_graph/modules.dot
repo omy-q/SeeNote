@@ -1,0 +1,11 @@
+digraph {
+flow1
+flow2
+home
+pokemons
+root
+home -> pokemons
+root -> flow1
+root -> flow2
+root -> home
+}
