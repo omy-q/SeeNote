@@ -28,7 +28,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "MobileUp KMM Template"
+rootProject.name = "SeeNote"
 include(":androidApp")
 include(":shared")
 
