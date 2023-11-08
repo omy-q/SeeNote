@@ -7,8 +7,8 @@ import kotlin.jvm.JvmInline
 value class BackendUrl(val value: String) {
 
     companion object {
-        private val MainDevelopmentUrl = BackendUrl("https://pokeapi.co/")
-        private val MainProductionUrl = BackendUrl("https://pokeapi.co/")
+        private val MainDevelopmentUrl = BackendUrl("")
+        private val MainProductionUrl = BackendUrl("")
 
         fun getMainUrl(backend: Backend) = when (backend) {
             Backend.Development -> MainDevelopmentUrl

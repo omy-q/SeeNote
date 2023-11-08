@@ -6,7 +6,6 @@ import com.arkivanov.decompose.ComponentContext
 import org.koin.core.Koin
 import ru.mobileup.kmm_template.core.configuration.BuildType
 import ru.mobileup.kmm_template.core.configuration.Configuration
-import ru.mobileup.kmm_template.features.allFeatureModules
 import ru.mobileup.kmm_template.features.root.createRootComponent
 import ru.mobileup.kmm_template.features.root.ui.RootComponent
 
@@ -35,7 +34,7 @@ class Core(configuration: Configuration) {
                 listOf(
                     commonCoreModule(configuration),
                     platformCoreModule(configuration),
-                ) + allFeatureModules
+                )
             )
             declare(ComponentFactory(this))
             createEagerInstances()

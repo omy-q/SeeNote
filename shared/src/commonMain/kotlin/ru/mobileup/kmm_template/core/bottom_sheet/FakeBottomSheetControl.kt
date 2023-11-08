@@ -1,6 +1,5 @@
 package ru.mobileup.kmm_template.core.bottom_sheet
 
-import com.arkivanov.decompose.router.overlay.ChildOverlay
 import com.arkivanov.essenty.parcelable.Parcelable
 import ru.mobileup.kmm_template.core.state.CMutableStateFlow
 import ru.mobileup.kmm_template.core.state.CStateFlow
